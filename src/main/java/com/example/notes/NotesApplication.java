@@ -19,7 +19,11 @@ public class NotesApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000")
+                        // allow both local dev frontend and deployed frontend
+                        .allowedOrigins(
+                                "http://localhost:3000", 
+                                "https://frontend-six-sigma-ux3mp3navp.vercel.app"
+                        )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
