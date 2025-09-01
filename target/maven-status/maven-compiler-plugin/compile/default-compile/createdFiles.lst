@@ -1,0 +1,6 @@
+com\example\notes\model\Note.class
+com\example\notes\NotesApplication.class
+com\example\notes\NotesApplication$1.class
+com\example\notes\controller\NotesController.class
+com\example\notes\service\NotesService$1.class
+com\example\notes\service\NotesService.class
