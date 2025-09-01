@@ -14,7 +14,7 @@
     <name>notes-api</name>
     <description>Simple Notes API with Spring Boot</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
